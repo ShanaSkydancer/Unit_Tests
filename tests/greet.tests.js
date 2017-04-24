@@ -1,6 +1,6 @@
 // // Greet test
 
-"use stricy";
+var greet = require("../greet");
 
 const assert = require('assert');
 
