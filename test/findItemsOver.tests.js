@@ -15,8 +15,7 @@ var expectedResults = [
 ];
 
 describe('The findItemsOver function', function(){
-
     it('should findItemsOver correctly', function(){
-        assert.deepEqual(findItemsOver20(itemList, 20), expectedResults);
+        assert.deepEqual(findItemsOver(itemList, 20), expectedResults);
     });
 });
